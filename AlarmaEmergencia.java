@@ -8,7 +8,6 @@
  */
 public class AlarmaEmergencia extends AlarmaEjer2 {
 	
-	AlarmaEmergencia alarmaIncendio = new AlarmaEmergencia();
 	public void m1() { 
 		System.out.println("emergencia 1"); } // emergencia 1
 	
@@ -19,7 +18,8 @@ public class AlarmaEmergencia extends AlarmaEjer2 {
 	}
 	
 	public String toString(){// emergencia Ring...Ring...Ring...Ring
-		return "emergencia" + super.toString();
+		String cadena = "emergencia " + super.toString();
+		return cadena;
 	}
 	
 	
