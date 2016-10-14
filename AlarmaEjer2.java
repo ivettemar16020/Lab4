@@ -1,6 +1,5 @@
-
 /**
- * @author IvetteCardona22
+ * @author IvetteCardona 16020
  *
  */
 public class AlarmaEjer2 extends Timbre {
